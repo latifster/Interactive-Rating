@@ -1,0 +1,127 @@
+body {
+    background: rgb(19,21,25);
+    height: 100vh;
+}
+
+
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background: hsl(213, 19%, 18%);
+    border-radius: 10px;
+    height: 10cm; 
+    width: 10cm;
+    font-family: 'Overpass', sans-serif;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+}
+
+
+#rating-box h2 {
+    position: relative;
+    top: 2.5cm;
+    left: .6cm;
+    margin: 0 auto;
+}
+#rating-box p {
+    position: relative;
+    top: 3cm;
+    left: .1cm;
+    inline-size: 9cm;
+    overflow-wrap: break-word;
+    margin: 0 auto;
+}
+
+#rating-box button {
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    background:hsl(213, 19%, 28%);
+    top: 3.5cm;
+    left: .5cm;
+    margin: 0 7px;
+    color: hsl(217, 12%, 63%);
+}
+
+#rating-box #enterbtn {
+    border-radius: 0;
+    position: relative;
+    top: 4.5cm;
+    width: 300px;
+    border-radius: 25px;
+    height: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: hsl(25, 97%, 53%);
+    color: white;
+}
+
+#rating-box .circlelogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: relative;
+    left: .5cm;
+    bottom: 4cm;
+    width: 50px;
+    height: 50px;
+    background:hsl(213, 19%, 28%);
+    
+}
+
+.second-icon {
+   position: relative;
+   bottom: 9cm;
+   margin: 0 auto;
+   display: flex;
+
+}
+
+#after-box h2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 10px;
+    margin: 0 auto;
+}
+
+#after-box p {
+    font-size: 14px;
+    color: rgb(184, 184, 184);
+    text-align: center;
+    margin: 0 auto;
+    line-height: .7cm;
+}
+
+.selectedrating-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 5cm;
+    margin: 0 auto;
+    background: hsl(216, 12%, 54%);
+    height: 25px;
+    width: 5cm;
+    border-radius: 10px;
+}
+
+#after-box .selectedrating-box p {
+    color: hsl(25, 97%, 53%);
+}
